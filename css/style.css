@@ -1,0 +1,40 @@
+body {
+  line-height: 1.5;
+  color:white;
+  font-family:Lato ;
+  /* Full Page Background Receipe */
+  background: url('../images/Newport-Chris.jpg');
+  background-size: cover;
+  background-position: right;
+  background-attachment: fixed;
+
+}
+
+.container {
+  width: 600px;
+  margin: 40px;
+  background: black;
+  background: rgba(0,0,0,0.5);
+  padding:15px;
+  border-radius:10px;
+
+}
+
+
+h1 {
+	font-family:Rokkitt, serif;
+	font-size: 50px;
+	margin-bottom: 0px;
+	margin-top:-20px;
+}
+
+h2{
+	margin-top:0px;
+	font-size: 30px;
+}
+
+a{
+	color:#BFE35B;
+	text-decoration: none;
+
+}
