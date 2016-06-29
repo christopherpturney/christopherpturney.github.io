@@ -6,7 +6,8 @@ html ,body {
 img {
 	width:40px;
 	height:40px;
-	transition: all .5s ease-out;
+	transition: all .4s ease-out;
+	transition-delay: .2s;
 }
 
 .entry-details {
@@ -30,13 +31,14 @@ img {
 
 
 .message-inner:hover .entry-details {
-	transition: max-height .2s ease-in;
-	max-height:500px;
-	visibility: visible;
+	transition: max-height .6s ease-in;
+	transition-delay: .1s;
+	max-height:150px;
+	/*visibility: visible;*/
 }
 
 .message-inner:hover  img{
-	transition: all .5s ease;
+	transition: all .4s ease;
 	width:100px;
 	height:100px;
 }
@@ -47,9 +49,9 @@ img {
 }
 
 .entry-details {
-	visibility: hidden;
+	/*visibility: hidden;*/
 	max-height:0;
-	transition: max-height .2s ease-out;
+	transition: max-height .4s ease-out;
 
 }
 
