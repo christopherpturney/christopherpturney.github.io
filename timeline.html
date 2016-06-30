@@ -26,35 +26,30 @@
 
 <body>
 
-	<div class = mainContainer >
-		<div class="container">
-			<div class="row">
-				<h2>Day One</h2>
-			</div>
+	<div class = container-fluid >
+		<div class="row">
+			<h2>Day One</h2>
+		</div>
+		<div class = "row">
 			<!-- timeline list -->
-    		<div class="qa-message-list" id="wallmessages">
-				<div class="message-item" id="m16">
-					<div class="message-inner">
-						<div class="message-head clearfix">
+			
+			<div class="timeline   ">
+				<div class="event" id="1">
+					<div class="event-box">
+						<div class="clearfix">
 							<div class="avatar pull-left"><a href="http://www.google.com"><img src="images/tavern.png"></a></div>
-							<div class="user-detail">
-								<h5 class="handle">Breakfast</h5>
-								<div class="post-meta">
-									<div class="asker-meta">
-										<span class="qa-message-what">Olde Tavern</span>
-										<!-- <span class="qa-message-when">
-											<span class="qa-message-when-data">Jan 21</span>
-										</span> -->
-										<!-- <span class="qa-message-who">
-											<span class="qa-message-who-pad">by </span>
-											<span class="qa-message-who-data"><a href="./index.php?qa=user&qa_1=Oleg+Kolesnichenko">Oleg Kolesnichenko</a></span>
-										</span> -->
-
-									</div>
-									<div class = "entry-details">
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita  molli
-									</div>
+							<div class="event-text">
+								<h5 class="event-title">
+									Breakfast
+								</h5>
+								<!-- <div class="post-meta"> -->
+								<div class="event-location">
+									Olde Tavern 
 								</div>
+								<div class = "event-details">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita  molli
+								</div>
+							<!-- 	</div> -->
 							</div>
 						</div>
 						<!-- <div class="qa-message-content">
@@ -62,25 +57,18 @@
 						</div> -->
 				</div></div>
 				<!-- item 2 -->
-				<div class="message-item" id="m16a">
-					<div class="message-inner">
+				<div class="event" id="2">
+					<div class="event-box">
 						<div class="message-head clearfix">
 							<div class="avatar pull-left"><a href="http://www.google.com"><img src="images/waterfall.jpeg"></a></div>
-							<div class="user-detail">
-								<h5 class="handle">Visit Watama Falls</h5>
+							<div class="event-text">
+								<h5 class="event-title">Visit Watama Falls</h5>
 								<div class="post-meta">
 									<div class="asker-meta">
-										<span class="qa-message-what">Okegokee, WA</span>
-										<!-- <span class="qa-message-when">
-											<span class="qa-message-when-data">Jan 21</span>
-										</span> -->
-										<!-- <span class="qa-message-who">
-											<span class="qa-message-who-pad">by </span>
-											<span class="qa-message-who-data"><a href="./index.php?qa=user&qa_1=Oleg+Kolesnichenko">Oleg Kolesnichenko</a></span>
-										</span> -->
-
+										<span class="event-location">Okegokee, WA</span>
+	 
 									</div>
-									<div class = "entry-details">
+									<div class = "event-details">
 										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita  molli
 									</div>
 								</div>
@@ -91,28 +79,30 @@
 						</div> -->
 				</div></div>
 			</div> <!-- end timeline list -->
+			
+		</div>
 
-			<!-- Buttons -->
-			<div class = "button-container">
-				  <button type = "button" class="btn-floating btn-large waves-effect waves-light green" data-toggle="modal" data-target="#myModal"><i class="material-icons">add</i></button>
-			</div>
 
-		
+		<!-- Buttons -->
+		<div class = "button-container">
+			  <button type = "button" class="btn-floating btn-large waves-effect waves-light green" data-toggle="modal" data-target="#myModal"><i class="material-icons">add</i></button>
+		</div>
 
-			<!-- Modal -->
-			<!-- Modal -->
-			<div class="modal fade bs-example-modal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-			  <div class="modal-dialog modal-lg">
-			    <div class="modal-content">
-			      ...
-			    </div>
-			  </div>
-			</div>
+	
+
+		<!-- Modal -->
+		<!-- Modal -->
+		<div class="modal fade bs-example-modal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+		  <div class="modal-dialog modal-lg">
+		    <div class="modal-content">
+		      ...
+		    </div>
+		  </div>
+		</div>
 			<!-- end modal -->
 
-		</div>     <!-- end timeline container -->
-	</div>
-
+	</div>     <!-- end timeline container -->
+	
 
 </body>
 </html>
