@@ -161,8 +161,8 @@
                     <h3>Under Construction</h3>
                 </div>
             </div>
-            <div class="row hidden">
-                <div class="col-sm-4 portfolio-item">
+            <div class="row ">
+                <div class="col-sm-4 portfolio-item hidden">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -172,7 +172,7 @@
                         <img src="img/portfolio/cabin.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-4 portfolio-item hidden">
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -182,7 +182,7 @@
                         <img src="img/portfolio/cake.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-4 portfolio-item hidden">
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -192,7 +192,7 @@
                         <img src="img/portfolio/circus.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-4 portfolio-item ">
                     <a href="#portfolioModal4-gamification" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -203,7 +203,7 @@
                         <img src="img/portfolio/game.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-4 portfolio-item hidden">
                     <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -213,7 +213,7 @@
                         <img src="img/portfolio/book.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-4 portfolio-item hidden">
                     <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -236,26 +236,26 @@
                     <hr class="star-light">
                 </div>
             </div>
-            <div class="row text-center">
+            <div class="row text-center ">
                 <div class="col-lg-2 col-lg-offset-1 white-text-hover">
-                    <h4>Soccer<br />Nut</h4>
+                    <h4>Soccer<br />Fan</h4>
                     <p>The spikes are hung up, now I just watch every Saturday morning… and Sundays</p>
                 </div>
                 <div class="col-lg-2 white-text-hover">
-                    <h4>Ever Aspiring Golfer</h4>
+                    <h4>OK<br />Golfer</h4>
                     <p>Still trying to match my low score from when I was 17</p>
                 </div>
                 <div class="col-lg-2 white-text-hover">
                     <h4>Beginner Tailor</h4>
-                    <p>Yes, I can sew</p>
+                    <p>Learning how to sew</p>
                 </div>
                 <div class="col-lg-2 white-text-hover">
                     <h4>Occasional Artist</h4>
                     <p>My favorite medium is paper and pencil, ask me about my work</p>
                 </div>
                 <div class="col-lg-2 white-text-hover">
-                    <h4>Tinkerer & Fixer</h4>
-                    <p>Just waiting for the day when I can have a garage of my own to build stuff</p>
+                    <h4>Tinkerer & Builder</h4>
+                    <p>Just waiting for the day when I can have a garage of my own to build cool stuff</p>
                 </div>
             </div>
         </div>
@@ -660,19 +660,30 @@
                         <div class="modal-body">
                             <h2>Gamification in the Enterprise</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <!-- <img src="img/portfolio/game.png" class=" img-responsive img-centered" alt=""> -->
+                            <p><strong>Problem</strong></p>
+                            <p> Our users weren't keeping the system up to date. The 200+ Project Managers in the IT organization needed to keep their project information current to inform decision making and provide transparency into actual spend.</p>
+                            <p><strong>Idea</strong></p>
+                            <p>I read about the concept of gamification, and it's application in non-traditional game situations and decided to pilot something in my free time. </p>
+                            <p><strong>Design</strong></p>
+                            <p>First, I logged down all the "rules" for the game (everything that Project Managers were supposed to do). Then, I created SQL queries to pull the results of testing each of these "rules" for every Project in our system. </p>
+                            <p><strong>MVP</strong></p>
+                            <p>For my MVP, I loaded these results into excel and created a basic UI to plug into a webpage, so that users wouldn't even know that an Excel file was under the hood. I had to manually re-run the SQL queries and upload the Excel file each day, but it was fine for the first month. </p>
+                            <img src="img/modals/gamification1.png" class = "img-responsive img-centered" alt ="gamification1">
+                            <p>Users liked the "game" concept and competed to get onto another <strong>"leaderboard"</strong> I created. The result was a big success! After one month, a simple statistic of "# of users providing status updates each week" improved 50%. </p>
+                            <img src="img/modals/gamification2.png" class = "img-responsive img-centered blur" alt ="gamification2">      
+                            <p>Our client liked the idea, and approved us to move forward and have our development team build the full-fledged report to be real-time. 3 months later, over 50 Project Managers had 100% scores, while at the beginning, 0 did. </p>
                             <ul class="list-inline item-details">
                                 <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    <strong>n/a</a>
                                     </strong>
                                 </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    <strong>2014</a>
                                     </strong>
                                 </li>
                                 <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    <strong>Consulting</a>
                                     </strong>
                                 </li>
                             </ul>
