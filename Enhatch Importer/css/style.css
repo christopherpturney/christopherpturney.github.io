@@ -1,0 +1,333 @@
+body {
+	font-family: 'Avenir', 'Sans-serif';
+	color: rgb(80,80,80);
+	background-color: rgb(244,244,244);
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+  /*----  Header ---- */
+
+.header-row-1 {
+	background-color: white;
+}
+
+.settings-box {
+	background-color: rgb(243, 243, 243);
+	padding:0;
+	margin:0;
+	display:inline-block;
+	float:right;
+}
+.settings-icon {
+	width:50px;
+	height:50px;
+	padding:5px;
+	margin:0;
+}
+
+.menu {
+
+	/*background-color: rgb(243, 243, 243);*/
+	padding:0 0px 0 30px;
+	margin:0;
+	display:inline-block;
+
+	/*box-shadow: 0px 2px 3px 0px rgba(0,0,0,.2);*/
+}
+
+.header-row-2 {
+
+	background-color: rgb(243, 243, 243);
+	padding:0;
+	margin:0;
+	box-shadow: 0px 2px 3px 0px rgba(0,0,0,.2);
+	border-top:1px solid rgb(243, 243, 243);
+	display:block;
+	float:left;
+	width:100%;
+}
+
+
+.menu > li{
+	display:inline-block;
+	padding:10px;
+	border-bottom: 2px solid rgb(243, 243, 243);
+}
+
+.menu >li:hover  >a {
+	transition: all .2s ease-in;
+	color: #4ABAAA; 
+}
+
+.menu >li:hover 		{
+	transition: all .2s ease-in;
+	border-bottom: 2px solid #4ABAAA;
+}
+
+
+
+
+
+.search-bar {
+	background-color: white;
+	display:inline-block;
+	float:right;
+	 overflow: hidden; 
+	 width:200px;
+	 height:44px;
+}
+
+.search-icon {
+	padding:10px;
+	float: right;
+}
+
+.menu > a {
+	color:white;
+}
+
+.logo {
+	padding-left:25px;
+	margin:10px;
+	height:40px;
+	display:inline-block;
+
+}
+
+a{
+	text-decoration: none;
+	list-style:none;
+	color: rgb(80,80,80);
+}
+
+.navigation-top > div > a ,.navigation-bottom > div > a {
+	color:white;
+}
+
+ul {
+	padding:0;
+}
+
+p , body{
+	padding:0;
+	margin:0;
+}
+
+.help-text {
+	text-align:center;
+	margin:0 auto;
+	background-color: rgb(220,220,220);
+	padding:20px;
+
+}
+.empty-cell {
+	height:40px;  
+	clear:both;
+}
+
+
+.page-content  div {
+	margin-top:30px;
+}
+
+
+
+.button , .submit{
+	background-color: #4ABAAA;
+	color:white;
+	border-radius: 100px;
+	border:2px solid #4ABAAA;
+	width: 200px;
+	margin: 0 auto;
+	margin-top:10px;
+	margin-bottom:10px;
+	text-align: center;
+	padding:10px;
+	display:block;
+}
+
+.button:hover {
+	transition: all .15s ease-in;
+	background-color: rgba(0,0,0,0);
+	color:#4ABAAA;
+}
+
+.button_next {
+	background-color: green;
+	border-color:green;
+}
+.button_next:hover {
+	color:green;
+}
+.button_blue {
+	background-color: #08477A;
+	border-color:#08477A;
+}
+.button_blue:hover {
+	color:#08477A;
+}
+.button_submit {
+	/*width:100px;*/
+	display:inline;
+	font-family: 'Avenir', 'Sans-serif';
+}
+
+div .submit-message {
+	margin-top:0;
+	:top;
+}
+
+h3 {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+/*New Import*/
+label, input	 {
+	display: inline-block;
+	overflow:auto;
+}
+
+/*Add Product Cateogry*/
+.file-upload {
+	display: inline;
+	width:66%;
+	font-size:14px;
+	background-color: white;
+	padding:10px 0 10px 0;
+}
+
+.section-break {
+	padding-top: 60px;
+}
+
+.section-break-small {
+	padding-top: 20px;
+}
+
+input {
+	font-size: 1em;
+	width: 300px;
+	display:inline-block;
+	/*font-family: 'Avenir', 'Sans-serif';*/
+}
+
+.validation-result-green {
+	color:#4ABAAA;
+}
+
+  /*Map product catalog fields */
+
+ .mapping-right > ul {
+  	margin-top:0;
+  	list-style-type: none;
+  }
+
+ #mapped-field-list  {
+ 	color: #4ABAAA;;
+ }
+
+.icons  {
+	width:20px;
+	margin-left:20px;
+
+	display: inline-block;
+	text-decoration-style: bold;
+	color:white;
+	background-color: #08477A;
+	text-align:center;
+	border-radius:10px;
+	font-size:.8em;
+}
+
+.gray {
+	color:gray;
+	text-decoration:line-through;
+}
+  	
+
+
+  /*--- Navigation  --- */
+
+.navigation-top , .navigation-bottom{
+  	box-shadow: 0px 2px 3px 0px rgba(0,0,0,.2);
+  	overflow: hidden;
+  	display:inline-block;
+  }
+
+.navigation-top {
+  	margin-top:10px;
+  }
+
+.navigation-bottom  {
+  	font-size: .8em;
+  	margin-bottom:10px;
+  	/*margin-top:0px;*/
+  }
+
+ .navigation-top-item , .navigation-bottom-item {
+  	background-color: #08477A;
+	color:white;
+	border:2px solid white;
+	/*width: 160px;*/
+	margin: 0 auto;
+	/*margin-top:10px;*/
+	/*margin-bottom:10px;*/
+	text-align: center;
+	display:inline-block;
+  }
+
+.navigation-top-item {
+	padding:10px;
+ }
+
+.navigation-bottom-item {
+	padding:5px;
+ }
+
+ .item-active {
+ 	background-color:#4ABAAA;
+ }
+
+
+  /*-- validtion ---*/
+
+  .validation {
+  	color: red;
+  	display:inline-block;
+  }
+  /*----- lab text  ----- */
+
+
+
+
+#my-sentence {
+	font-size: 1.3em;
+	color:red;
+}
+
+  
+.entry-row {
+  display:inline-block;
+  float:left;
+  margin-right:10px;
+  margin-bottom:10px;
+}
+
+.entry-label {
+  width:90px;
+}
+
+#car-selection {
+  padding-left: 10px;
+  color:red;
+}
+
+.container {
+  overflow:auto;
+}
+  
+  
