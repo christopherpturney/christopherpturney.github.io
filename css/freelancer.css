@@ -192,11 +192,12 @@ section.success {
     padding-top: 75px;
   }
 }
-#portfolio .portfolio-item,
+/*#portfolio .portfolio-item,
 #projects .portfolio-item {
   margin: 0 0 15px;
   right: 0;
 }
+*/
 #portfolio .portfolio-item .portfolio-link,
 #projects .portfolio-item .portfolio-link {
   display: block;
@@ -244,12 +245,12 @@ section.success {
 #projects * {
   z-index: 2;
 }
-@media (min-width: 767px) {
+/*@media (min-width: 767px) {
   #portfolio .portfolio-item,
   #projects .portfolio-item {
     margin: 0 0 30px;
   }
-}
+}*/
 .floating-label-form-group {
   position: relative;
   margin-bottom: 0;

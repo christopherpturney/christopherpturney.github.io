@@ -1,9 +1,42 @@
 
 /*-----------*/
 
-.col-lg-2 {
-  margin-top:35px;
+.skill-tile, .skill-tile-first{
+  padding-top:20px;
+  padding-bottom:15px;
+
 }
+
+.col-lg-4.skill-tile  {
+  padding-left:40px;
+  padding-right:40px;
+}
+
+.skill-tile:after {
+  content:""; 
+  border-color:white;
+  border-top: solid 5px;
+  position: absolute; 
+  top: 0; 
+  right:42%; 
+  width: 16%;
+}
+
+/*
+.skill-tile-break{
+  padding: 0;
+  border-color:white;
+  border-top: solid 5px;
+  text-align: center;
+  max-width: 250px;
+  margin: 25px auto 30px;
+}
+
+.skill-tile-break:after {
+  background-color: #62aaff;
+  color: white;
+
+}*/
 
 .chris-head {
   max-width: 150px;
@@ -24,26 +57,48 @@
 }
 
 
+.user-persona-images {
+  max-width:80%;
+}
+
+ 
+.arsenal-link,   .arsenal-link:focus, .arsenal-link:active {
+  color: white; 
+  text-decoration: none;
+}
+.arsenal-link:hover  {
+  text-decoration: none;
+}
+
+
 /*  flex-direction: column;
   justify-content: center;  
   align-items:  center;*/
 
 /*--- view on computer --- */
-@media (min-width: 400px) {
+@media (min-width: 415px) {
   .chris-head-circle {
-    height:400px;
-    width:400px;
+    height:340px;
+    width:340px;
     border-radius:400px;
     background-color: rgb(240,240,250);
     border: 8px solid #2c3e50;
     margin:0 auto;
   }
     .chris-head {
-    max-width: 300px;
+    max-width: 250px;
     filter: invert(100%);
     -webkit-filter: invert(100%);
-    padding-top:30px;
+    padding-top:25px;
   }
+  .chris-head-circle:hover {
+    transition:all .2s ease;   
+    box-shadow: 0px 0px 12px 5px rgba(0,0,0,.4);
+  }
+
+  .skill-tile:after {
+    content:none;
+  } 
 }
 
 .hidden {
@@ -65,12 +120,15 @@
 }
 
 .white-text-hover:hover {
-  transition: all;
-  transition-duration: 1s;
+  transition: all 1s ease;
   color:#40445e;
 }
 
-
+.white-text-hover-light:hover {
+  transition: all 1s ease;
+  color:#62aaff;
+}
+/*
  .ervo {
    background-color: black;
    color: rgb(245,245,245);
@@ -78,7 +136,7 @@
    height:520px;
    width:720px  ;
    text-align:center;
- }
+ }*/
 
  .item-details{
   font-size: 18px;
@@ -95,15 +153,71 @@ hr.star-third:after {
   color: white;
 }
 
+/*Tiles -- overwritten from freelancer.css */
+
+@media (min-width: 767px) {
+  #portfolio .portfolio-item,
+  #projects .portfolio-item {
+    margin-bottom:  30px;
+  }
+}
+#portfolio .portfolio-item,
+#projects .portfolio-item {
+  margin-bottom:15px;
+  
+}
+
+  /*----------------------*/
+   /*-----  new skills section ---- */
+
+section.skills {
+  background: #40445e;
+  color: white;
+}
+
+hr.star-third:after {    
+  background-color: #40445e;
+  color: white;
+}
 
 
-/*-----------*/
+
+/*-----Modals  ------*/
+.modal-body  >p{
+  text-align:justify;
+}
+
+.twohundred {
+  border: 1px solid red;
+}
+
+.mvp {
+  height:280px;
+  box-shadow: 0px 0px 3px 2px rgba(0,0,0,.5);
+  margin:0 auto;
+}
+
+#rules-list {
+  text-align:left;
+  margin:0 60px 30px 60px;
+}
+
+.design-step { 
+  font-weight: bold; 
+  text-transform: uppercase;
+   
+ }
+
+.portfolio-modal .modal-content img.enhatch{
+  margin-bottom: 0;
+}
+
 
 
 
 /*--- Pie Chart --- */
  
-* {
+ {
   margin: 0;
   padding: 0;
 }
