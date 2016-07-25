@@ -8,8 +8,8 @@
 }
 
 .col-lg-4.skill-tile  {
-  padding-left:40px;
-  padding-right:40px;
+  padding-left:auto;
+  padding-right:auto;
 }
 
 .skill-tile:after {
@@ -64,7 +64,7 @@
  
 .arsenal-link,   .arsenal-link:focus, .arsenal-link:active {
   color: white; 
-  text-decoration: none;
+ red text-decoration: none;
 }
 .arsenal-link:hover  {
   text-decoration: none;
@@ -99,6 +99,11 @@
   .skill-tile:after {
     content:none;
   } 
+
+  .col-lg-4.skill-tile  {
+    padding-left:40px;
+    padding-right:40px;
+  }
 }
 
 .hidden {
@@ -183,12 +188,29 @@ hr.star-third:after {
 
 
 /*-----Modals  ------*/
+
 .modal-body  >p{
-  text-align:justify;
+  text-align:left;
 }
 
+#rules-list {
+  text-align:left;
+  margin:0 30px 30px 0px;
+}
+
+   /*Computer*/
+@media (min-width: 390px) {
+   .modal-body  >p{
+    text-align:justify;
+}
+  #rules-list {
+  text-align:left;
+  margin:0 60px 30px 60px;
+  }
+}
+ 
 .twohundred {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 
 .mvp {
@@ -197,10 +219,7 @@ hr.star-third:after {
   margin:0 auto;
 }
 
-#rules-list {
-  text-align:left;
-  margin:0 60px 30px 60px;
-}
+
 
 .design-step { 
   font-weight: bold; 
@@ -239,7 +258,7 @@ body {
  
 
 /*--- view on computer --- */
-@media (min-width: 400px) {
+@media (min-width: 415px) {
   .chart {
     width:400px;
     height:400px;
