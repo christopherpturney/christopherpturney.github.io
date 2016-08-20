@@ -57,7 +57,10 @@
 </head>
 
 <body id="page-top" class="index">
+<script type="text/javascript">
+    mixpanel.track("Page Loaded", {"Page Name":"Landing Page"});
 
+</script>
     <!-- Navigation -->
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
         <div class="container">
@@ -78,11 +81,11 @@
                     <li class="page-scroll">
                         <a href="#portfolio">Portfolio</a>
                     </li>
-                    <script type="text/javascript">
+                    <!-- <script type="text/javascript">
                         // track click for link id #nav
                         mixpanel.track_links('#portfolio', 'Portfolio Link Clicked');
 
-                    </script>
+                    </script> -->
 
                     <li class="page-scroll">
                         <a href="#skills">Skills</a>
